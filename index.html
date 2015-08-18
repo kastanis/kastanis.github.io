@@ -53,7 +53,7 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("subscription-prices.csv", function(err, prices) { 
+d3.csv("https://raw.githubusercontent.com/kastanis/bar-chart/master/subscription-prices.csv", function(err, prices) { 
 
     prices.forEach(function(d) {
     d.X2013 = +d.X2013;
