@@ -1,97 +1,13 @@
-<!-- shamelessly stolen from scott murray: http://alignedleft.com/tutorials -->
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>D3 Test</title>
-        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-        <style type="text/css">
-.testbar {
-  fill: #ff00ff;
-}
-.bar {
-fill: #ddd;
-}
-.g-ESPN {
-  fill: red;
-}
-.g-TNT {
-  fill: DarkGray;
-}
-.g-label {
-font-weight: bolder;
-font-size: small;
-}
-.g-ESPNprice {
-font-size: xx-small;
-}
-.g-labelTNT {
-font-size: xx-small;
-}
-</style>
-    </head>
-    <body>
-        <script type="text/javascript">
-d3.select("body").append("h1").text("Cost per pay TV subscriber per month")
-var margin = {top: 20, right: 10, bottom: 20, left: 10};
-var width = 700 - margin.left - margin.right,
-height = 300 - margin.top - margin.bottom;
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-d3.csv("https://raw.githubusercontent.com/kastanis/bar-chart/master/subscription-prices.csv", function(err, prices) { 
-    prices.forEach(function(d) {
-    d.X2013 = +d.X2013;
-    });
-    prices.sort(function(a,b) {
-    return a.X2013 - b.X2013;
-    });
-var y = d3.scale.linear()
-.domain([0,6])
-.range([0,height]);
-var x = d3.scale.linear()
-.domain([0,prices.length])
-.range([0,width]);
-var bar = svg.selectAll(".bar")
-  .data(prices)
-.enter().append("rect")
-  .attr("width", 2)
-  .attr("height", function(d) { return y(d.X2013)} )
-  .attr("y", function(d) { return height - y(d.X2013)  })
-  .attr("x", function(d, i) { return 3 * i})
-  .attr("class", "bar")
-  .classed("g-ESPN", function(d) { return d.Network == "ESPN"})
-  .classed("g-TNT", function(d) { return d.Network == "TNT"});
-var y = d3.scale.linear()
-.domain([0,6])
-.range([0,height]);
-var x = d3.scale.linear()
-.domain([0,prices.length])
-.range([0,width]);
-svg.append("text")
-.attr("class", "g-label")
-.attr("x", 590)
-.attr("y", 30)
-.text("ESPN")
-svg.append("text")
-.attr("class", "g-labelTNT")
-.attr("x", 500)
-.attr("y", 190)
-.text("TNT ($1.24)")
-svg.append("text")
-.attr("class", "g-ESPNprice")
-.attr("x", 590)
-.attr("y", 50)
-.text("$5.54")
-svg.append("text")
-.attr("class", "g-ESPNprice")
-.attr("x", 590)
-.attr("y", 70)
-.text("per subscriber")
-d3.select("body").append("p").text("why is the curve so steep?")
-});
-        </script>
-    </body>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="" />
+</head>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
 </html>
