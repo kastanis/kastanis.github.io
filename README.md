@@ -13,4 +13,6 @@ https://github.com/kastanis/kastanis.github.io/
 
 And, soon, you can see my customized homepage at:
 
+http://kastanis.github.io/homepage
+
 http://kastanis.github.io/
