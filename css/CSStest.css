@@ -1,0 +1,15 @@
+body {
+    background-color: #d0e4fe;
+}
+
+h1 {
+    color: red;
+    text-align: left;
+    font-family: "Consolas";
+}
+
+p {
+    font-family: "Consolas";
+    font-size: 20px;
+    text-align: left;
+}
