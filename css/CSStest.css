@@ -1,15 +1,17 @@
-body {
-    background-color: #d0e4fe;
-}
+@import url(//fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b);
 
 h1 {
-    color: red;
+    color: black;
     text-align: left;
-    font-family: "Consolas";
+    font-size: 64px;
+    font-weight: 300;
+    font-family: "PT Sans", sans-serif;
 }
-
 p {
-    font-family: "Consolas";
+    font-family: "PT Sans", sans-serif;
     font-size: 20px;
     text-align: left;
+}
+h4:hover {
+    background-color: black;
 }
