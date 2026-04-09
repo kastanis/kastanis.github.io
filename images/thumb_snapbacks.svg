@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="75" viewBox="0 0 210 75">
+  <rect width="210" height="75" fill="#111"/>
+  <!-- court lines -->
+  <rect x="20" y="15" width="170" height="45" rx="2" fill="none" stroke="#333" stroke-width="1.5"/>
+  <line x1="105" y1="15" x2="105" y2="60" stroke="#333" stroke-width="1.5"/>
+  <circle cx="105" cy="37" r="12" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- 3pt arc left -->
+  <path d="M 20,20 Q 55,37 20,55" fill="none" stroke="#444" stroke-width="1.5"/>
+  <!-- 3pt arc right -->
+  <path d="M 190,20 Q 155,37 190,55" fill="none" stroke="#444" stroke-width="1.5"/>
+  <!-- standings bars -->
+  <rect x="30" y="25" width="55" height="6" rx="1" fill="#7c3aed"/>
+  <rect x="30" y="34" width="42" height="6" rx="1" fill="#7c3aed" opacity="0.7"/>
+  <rect x="30" y="43" width="35" height="6" rx="1" fill="#7c3aed" opacity="0.5"/>
+</svg>
