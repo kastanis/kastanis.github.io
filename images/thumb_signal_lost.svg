@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="75" viewBox="0 0 210 75">
+  <rect width="210" height="75" fill="#ffffff"/>
+  <!-- pedal outlines -->
+  <rect x="10" y="10" width="28" height="50" rx="3" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <rect x="48" y="10" width="28" height="50" rx="3" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <rect x="86" y="10" width="28" height="50" rx="3" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <rect x="124" y="10" width="28" height="50" rx="3" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <rect x="162" y="10" width="28" height="50" rx="3" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <!-- knob circles -->
+  <circle cx="24" cy="28" r="7" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="62" cy="28" r="7" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="100" cy="28" r="7" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="138" cy="28" r="7" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="176" cy="28" r="7" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <!-- indicator lines -->
+  <line x1="24" y1="28" x2="24" y2="21" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="62" y1="28" x2="67" y2="22" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="100" y1="28" x2="105" y2="23" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="138" y1="28" x2="133" y2="22" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="176" y1="28" x2="176" y2="21" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- stomp buttons -->
+  <circle cx="24" cy="50" r="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="62" cy="50" r="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="100" cy="50" r="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="138" cy="50" r="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <circle cx="176" cy="50" r="5" fill="#fff" stroke="#111" stroke-width="1.5"/>
+</svg>
